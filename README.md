@@ -1,5 +1,7 @@
 # BuyAndSell
 
+[Tutorial](https://www.linkedin.com/learning/angular-creating-and-hosting-a-full-stack-site/why-angular?resume=false)
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.17.
 
 ## Development server
