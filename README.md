@@ -1,4 +1,8 @@
 # BuyAndSell
+- Fix up UI a little [ ]
+- Tests [ ]
+
+# BuyAndSell
 
 [Tutorial](https://www.linkedin.com/learning/angular-creating-and-hosting-a-full-stack-site/why-angular?resume=false)
 
