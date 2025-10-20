@@ -1,0 +1,49 @@
+form {
+  background: #f2f2f2;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+label {
+  flex: 0 0 150px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #333;
+}
