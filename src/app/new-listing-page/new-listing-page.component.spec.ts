@@ -35,4 +35,22 @@ describe('NewListingPageComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should call ListingsService.createListing and navigate on submit', () => {
+  const listingData: Partial<Listing> = { name: 'Test', description: 'Test desc', price: 100 };
+
+  // Spy on the service method
+  const listingsService = TestBed.inject(ListingsService);
+  spyOn(listingsService, 'createListing').and.callThrough();
+
+  // Call the component method
+  component.onSubmit(listingData);
+
+  expect(listingsService.createListing).toHaveBeenCalledWith(
+    listingData.name!,
+    listingData.description!,
+    listingData.price!
+  );
+  expect(mockRouter.navigateByUrl).toHaveBeenCalledWith('/my-listings');
+});
 });
