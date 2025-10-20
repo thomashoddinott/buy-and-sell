@@ -1,5 +1,5 @@
 # BuyAndSell
-- Fix up UI a little [ ]
+- Fix up UI a little [x]
 - Tests [ ]
 
 # BuyAndSell
